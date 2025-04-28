@@ -1,0 +1,11 @@
+{
+    "mr1-comparison-single_attribute": {
+        "type": "demographic_attribute",
+        "generation_method": "single_attribute",
+        "exclude_references": true,
+        "evaluation_method": "attribute_comparison",
+        "execute_hypothesis": true,
+        "response_max_length": 100,
+        "list_format_response": true
+    }
+}

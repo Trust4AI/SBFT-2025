@@ -1,0 +1,27 @@
+{
+    "generation": {
+        "bias_types": [
+            "gender",
+            "religion",
+            "sexual_orientation",
+            "physical_appearance",
+            "socioeconomic_status"
+        ],
+        "properties_number": 2,
+        "tests_per_property": 1,
+        "generator_model": "o4-mini",
+        "explanation": false,
+        "generation_feedback": true,
+        "generator_temperature": 1.0
+    },
+    "execution": {
+        "models_under_test": [
+            "o3-mini",
+            "gpt-4.1-mini"
+        ]
+    },
+    "evaluation": {
+        "judge_model": "gemini-2.0-flash-thinking-exp-01-21",
+        "judge_temperature": 0.0
+    }
+}
